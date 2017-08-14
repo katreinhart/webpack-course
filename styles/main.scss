@@ -1,0 +1,20 @@
+@import './colors';
+@import './vendor';
+
+body {
+  background-color: $mainbg;
+}
+
+#window-small {
+  background-image: url('../images/windows-54kb.png');
+  background-repeat: no-repeat;
+  width: 400px;
+  height: 267px;
+}
+
+#window-large {
+  background-image: url('../images/windows-130kb.png');
+  background-repeat: no-repeat;
+  width: 700px;
+  height: 467px;
+}
